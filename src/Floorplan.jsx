@@ -1,6 +1,18 @@
+import Bedroom from "./Bedroom"
+
 const Floorplan = (props) => {
   return (
-    <h1>This is a floorplan</h1>
+    <>
+    <div>
+      <Bedroom roomNo={'1'}/>
+    </div>
+    <div>
+      <Bedroom roomNo={'2'}/>
+    </div>
+    <div>
+      <Bedroom roomNo={'3'}/>
+    </div>
+    </>
   )
 }
 
